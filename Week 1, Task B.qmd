@@ -2,25 +2,68 @@
 title: "Week 1, Task B"
 format: html
 editor: visual
+author: Julian Klinkmann
 ---
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
 ```{r}
-1 + 1
+library(tidyverse)
+library(MASS)
 ```
 
-You can add options to executable code like this
+#Setup 
+After a short google, one finds the MASS repository, which is to simulate negative binominal distributions: [Mass rnegbin](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/rnegbin.html)
+
+In this repo, variance is defined as follows:
+
+> variance = mu + mu\^2/theta
+
+This is slightly different from the description we received in our slides: \> variance=mu+mu2\*dispersion
+
+With that we can calculate the desired variance, which is then used to predict the theta, which is needed in MASS to simulate a negative binominal distribution:
 
 ```{r}
-#| echo: false
-2 * 2
+mu <- 10 
+dispersion <- 2
+(var <- mu * mu^2 * dispersion)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
+Therefore, we calculate with a variance of 2000. We can calculate the necessary theta as follows:
+
+> theta = mu\^2 / (var - mu)
+
+So we can calculate our desired theta:
+
+```{r}
+(theta <- mu^2 / (var - mu))
+```
+
+#Create neg. bin. dist
+Knowing those values, we can now evaluate our distribution. First, to assure reproducibility, we will use set.seed():
+
+```{r}
+set.seed(1000)
+dist <- rnegbin(100, mu, theta)
+dist
+```
+#Create Histogram
+With all that at hand, we can visualize a histogram, in this case with the help of ggplot
+
+```{r}
+ggplot() +
+  geom_histogram(mapping = aes(dist), binwidth = 2)+
+  ggtitle("Histogram of negative binominal distribution: linear")
+```
+Now to create the logarithmic distribution, we need to take the log of our distribution:
+```{r}
+dist <- log(dist)
+ggplot() +
+  geom_histogram(mapping = aes(dist), binwidth = 2)+
+  ggtitle("Histogram of negative binominal distribution: log")
+```
+As we can see above, the mean and the variance have been calculated for the linear model. 
+
+
+
+
+
+
