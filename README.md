@@ -1,5 +1,6 @@
 # STA-426-Exercise-1-Part-A
 
+
 ## Part A, Ex. 4: Create a README.md file
 
 ### Italics and Bold
@@ -65,4 +66,6 @@ Also here, we can use reference links. I will prove it:
 
 [cute doggie]: https://unsplash.com/photos/8mxSINYFoSw
 
+
+Part A of first Exercise: Get up and running with Github/Git
 
