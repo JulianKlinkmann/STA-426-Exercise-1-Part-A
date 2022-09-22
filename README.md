@@ -3,7 +3,7 @@
 
 ## Part A, Ex. 4: Create a README.md file
 
-### Italics and Bold
+## Italics and Bold
 
 *this_text_is_snake_case_and_italic*
 
@@ -13,7 +13,7 @@
 
 **and the other *way around***
 
-### Headers
+## Headers
 
 # Header 1
 
@@ -25,7 +25,7 @@
 
 ##### **Header 5**
 
-### Links
+## Links
 
 First we have a look at an inline link: [Check this out](https://www.srf.ch)
 
@@ -35,7 +35,7 @@ First we have a look at an inline link: [Check this out](https://www.srf.ch)
 
 Lets now work on some reference links: Heres [a reference link][reference link]
 
-### Now lets add some images
+## Now lets add some images
 
 Lets look at some DNA
 
@@ -45,7 +45,7 @@ Also here, we can use reference links. I will prove it:
 
 ![Cute dog][cute doggie] 
 
-### Blockquotes
+## Blockquotes
 
 >Don't judge each day by the harvest you reap but by the seeds that you plant. _-Robert Louis Stevenson_
 
