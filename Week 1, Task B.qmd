@@ -55,12 +55,12 @@ ggplot() +
 ```
 Now to create the logarithmic distribution, we need to take the log of our distribution:
 ```{r}
-dist <- log(dist)
+dist2 <- log(dist)
 ggplot() +
-  geom_histogram(mapping = aes(dist), binwidth = 0.3)+
+  geom_histogram(mapping = aes(dist2), binwidth = 0.3)+
   ggtitle("Histogram of negative binominal distribution: log")
 ```
-As we can see above, the mean and the variance have been calculated for the linear model. 
+As we can see above, the mean `r mean(dist)` and the variance `r var(dist)` have been calculated for the linear model. 
 
 
 
