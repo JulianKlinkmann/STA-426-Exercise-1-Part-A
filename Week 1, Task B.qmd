@@ -16,7 +16,6 @@ After a short google, one finds the MASS repository, which is to simulate negati
 In this repo, variance is defined as follows:
 
 > variance = mu + mu\^2/theta
-
 This is slightly different from the description we received in our slides: \> variance=mu+mu2\*dispersion
 
 With that we can calculate the desired variance, which is then used to predict the theta, which is needed in MASS to simulate a negative binominal distribution:
@@ -30,7 +29,6 @@ dispersion <- 2
 Therefore, we calculate with a variance of 2000. We can calculate the necessary theta as follows:
 
 > theta = mu\^2 / (var - mu)
-
 So we can calculate our desired theta:
 
 ```{r}
@@ -55,14 +53,12 @@ ggplot() +
 ```
 Now to create the logarithmic distribution, we need to take the log of our distribution:
 ```{r}
-dist <- log(dist)
+dist2 <- log(dist)
 ggplot() +
-  geom_histogram(mapping = aes(dist), binwidth = 0.3)+
+  geom_histogram(mapping = aes(dist2), binwidth = 0.3)+
   ggtitle("Histogram of negative binominal distribution: log")
 ```
-As we can see above, the mean and the variance have been calculated for the linear model. 
-
-
+As we can see above, the mean `r mean(dist)` and the variance `r var(dist)` have been calculated for the linear model. 
 
 
 
