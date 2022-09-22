@@ -82,7 +82,37 @@ But how does one make subpoints? I will show you:
     * The Rock
     * Stone Cold Steve Austin
 
+So how do we list a .md file right?
+1. Tipe something
+ 
+   Should ideally be useful
 
+2. post it
+ 
+   Make sure that the lines start under the line above. Looks better :)
+
+
+## Paragraphs
+
+>Beware the ides of March.
+Another moon: but, O, methinks, how slow... 
+Life's but a walking shadow...
+
+No. Not good. Maybe like this?
+
+>Beware the ides of March.
+>
+>Another moon: but, O, methinks, how slow... 
+>
+>Life's but a walking shadow...
+
+Still no. Like this?:
+
+>Beware the ides of March.  
+Another moon: but, O, methinks, how slow...   
+Life's but a walking shadow...  
+
+Yes. There you go! 
 
 [reference link]: https://www.uzh.ch/de.html
 
