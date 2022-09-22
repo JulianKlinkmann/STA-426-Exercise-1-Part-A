@@ -39,7 +39,7 @@ Lets now work on some reference links: Heres [a reference link][reference link]
 
 Lets look at some DNA
 
-![Nice DNA]([https://www.wissenschaft.de/technik-digitales/die-dna-der-dinge/](https://www.wissenschaft.de/wp-content/uploads/A/d/AdobeStock_179309453_B936C5D2-493D-4A34-8972-AE77D525F1EB-e1660294803521-990x648.jpg)
+![Nice DNA]([https://www.wissenschaft.de/technik-digitales/die-dna-der-dinge/](https://www.wissenschaft.de/wp-content/uploads/A/d/AdobeStock_179309453_B936C5D2-493D-4A34-8972-AE77D525F1EB-e1660294803521-990x648.jpg))
 
 Also here, we can use reference links. I will prove it:
 
