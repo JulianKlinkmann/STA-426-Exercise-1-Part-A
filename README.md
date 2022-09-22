@@ -57,8 +57,19 @@ Also here, we can use reference links. I will prove it:
 
 >In case you did _not do_ it: Visit this **[link][reference link]**
 
+## Lists
 
+Lets see a few adjectives for the dog above:
+* cute
+* japanese
+* money
 
+But in what order would people attribute those adjectives?
+1. **money**
+2. _japanese_
+3. cute
+
+Ok. Nice. 
 
 
 
