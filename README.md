@@ -71,6 +71,16 @@ But in what order would people attribute those adjectives?
 
 Ok. Nice. 
 
+But how does one make subpoints? I will show you:
+
+* Nice
+  * Nicer
+    * Nicest
+   
+* Hard
+  * Harder
+    * The Rock
+
 
 
 [reference link]: https://www.uzh.ch/de.html
