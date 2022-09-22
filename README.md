@@ -3,7 +3,7 @@
 
 ## Part A, Ex. 4: Create a README.md file
 
-### Italics and Bold
+## Italics and Bold
 
 *this_text_is_snake_case_and_italic*
 
@@ -13,7 +13,7 @@
 
 **and the other *way around***
 
-### Headers
+## Headers
 
 # Header 1
 
@@ -25,27 +25,27 @@
 
 ##### **Header 5**
 
-###Links
+## Links
 
 First we have a look at an inline link: [Check this out](https://www.srf.ch)
 
 [You should **really** check the link out](https://www.srf.ch)
 
-####Links can also be [in headers!](https://www.srf.ch)
+#### Links can also be [in headers!](https://www.srf.ch)
 
 Lets now work on some reference links: Heres [a reference link][reference link]
 
-###Now lets add some images
+## Now lets add some images
 
 Lets look at some DNA
 
-![Nice DNA](https://www.wissenschaft.de/technik-digitales/die-dna-der-dinge/)
+![Nice DNA](https://www.wissenschaft.de/wp-content/uploads/A/d/AdobeStock_179309453_B936C5D2-493D-4A34-8972-AE77D525F1EB-e1660294803521-990x648.jpg)
 
 Also here, we can use reference links. I will prove it:
 
 ![Cute dog][cute doggie] 
 
-### Blockquotes
+## Blockquotes
 
 >Don't judge each day by the harvest you reap but by the seeds that you plant. _-Robert Louis Stevenson_
 
@@ -57,15 +57,65 @@ Also here, we can use reference links. I will prove it:
 
 >In case you did _not do_ it: Visit this **[link][reference link]**
 
+## Lists
+
+Lets see a few adjectives for the dog above:
+* cute
+* japanese
+* money
+
+But in what order would people attribute those adjectives?
+1. **money**
+2. _japanese_
+3. cute
+
+Ok. Nice. 
+
+But how does one make subpoints? I will show you:
+
+* Nice
+  * Nicer
+    * Nicest
+   
+* Hard
+  * Harder
+    * The Rock
+    * Stone Cold Steve Austin
+
+So how do we list a .md file right?
+1. Tipe something
+ 
+   Should ideally be useful
+
+2. post it
+ 
+   Make sure that the lines start under the line above. Looks better :)
 
 
+## Paragraphs
 
+>Beware the ides of March.
+Another moon: but, O, methinks, how slow... 
+Life's but a walking shadow...
 
+No. Not good. Maybe like this?
+
+>Beware the ides of March.
+>
+>Another moon: but, O, methinks, how slow... 
+>
+>Life's but a walking shadow...
+
+Still no. Like this?:
+
+>Beware the ides of March.  
+Another moon: but, O, methinks, how slow...   
+Life's but a walking shadow...  
+
+Yes. There you go! 
 
 [reference link]: https://www.uzh.ch/de.html
 
-[cute doggie]: https://unsplash.com/photos/8mxSINYFoSw
+[cute doggie]: https://www.cnet.com/a/img/resize/61c44c6765cb6b8529df884935ad7aefc622aeec/hub/2021/11/03/3c2a7d79-770e-4cfa-9847-66b3901fb5d7/c09.jpg?auto=webp&fit=crop&height=675&width=1200
 
-
-Part A of first Exercise: Get up and running with Github/Git
 
