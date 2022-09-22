@@ -25,21 +25,21 @@
 
 ##### **Header 5**
 
-###Links
+### Links
 
 First we have a look at an inline link: [Check this out](https://www.srf.ch)
 
 [You should **really** check the link out](https://www.srf.ch)
 
-####Links can also be [in headers!](https://www.srf.ch)
+#### Links can also be [in headers!](https://www.srf.ch)
 
 Lets now work on some reference links: Heres [a reference link][reference link]
 
-###Now lets add some images
+### Now lets add some images
 
 Lets look at some DNA
 
-![Nice DNA](https://www.wissenschaft.de/technik-digitales/die-dna-der-dinge/)
+![Nice DNA]([https://www.wissenschaft.de/technik-digitales/die-dna-der-dinge/](https://www.wissenschaft.de/wp-content/uploads/A/d/AdobeStock_179309453_B936C5D2-493D-4A34-8972-AE77D525F1EB-e1660294803521-990x648.jpg))
 
 Also here, we can use reference links. I will prove it:
 
